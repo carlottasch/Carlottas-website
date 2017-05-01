@@ -113,10 +113,10 @@ h1, h2, h3, h4, h5, h6 {
                 .heading-font;
                 font-weight: 400;
                 letter-spacing: 1px;
-                color: @theme-primary;
+                color: white;
                 &:hover,
                 &:focus {
-                    color: lighten(@gray-base, 30%);
+                    color: @theme-primary;
                     outline: none;
                 }
             }
@@ -132,24 +132,6 @@ h1, h2, h3, h4, h5, h6 {
         color: white;
         background-color: darken(@theme-primary, 10%);
     }
-}
-
-.navbar-custom.affix {
-  .nav {
-      li {
-          a {
-            color: white;
-            &:hover,
-            &:focus {
-                color: lighten(white, 30%);
-                outline: none;
-            }
-          }
-      }
-  }
-  .navbar-brand {
-      color: white;
-  }
 }
 
 @media(min-width:768px) {
@@ -177,7 +159,6 @@ h1, h2, h3, h4, h5, h6 {
 @media(min-width:768px) {
     .navbar-custom.affix {
         background-color: @gray-darker;
-        color: white;
         padding: 10px 0;
         .navbar-brand {
             font-size: 1.5em;
@@ -192,7 +173,7 @@ header {
     background-position: center center;
     .background-cover;
     text-align: center;
-    color: rgba(0,0,0,0.6);
+    color: white;
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
@@ -307,8 +288,8 @@ section {
                     h4 {
                         margin: 0;
                     }
-                }
-            }
+                }                
+            }            
         }
         .portfolio-caption {
             max-width: 400px;
@@ -593,7 +574,7 @@ section#contact {
        font-weight: 700;
        color: @gray-lighter;
     }
-    :-ms-input-placeholder {
+    :-ms-input-placeholder {  
        .heading-font;
        font-weight: 700;
        color: @gray-lighter;
@@ -723,8 +704,8 @@ ul.social-buttons {
                 -webkit-transform: rotate(90deg);
                 /* Safari and Chrome */
                 z-index:1052;
-            }
-        }
+            }            
+        }        
     }
     .modal-backdrop {
         opacity: 0;
