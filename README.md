@@ -4,29 +4,49 @@
 
 - VORHER: Wenn du es noch nicht getan hast: Lege dir ein Github-Konto an und logge dich ein.
 		Du musst **kein** Projekt anlegen, wenn du gefragt wirst.
-- SCHRITT 1: Rufe das Repository unter der Adresse [https://github.com/invisible-university/agency-website](https://github.com/invisible-university/agency-website) auf und klicke rechts oben auf „Fork“.
-- On the repository main page click "Settings"
-- Change the name of the repository under "Settings"
-- Find "Github Pages" and as "Source" select "master branch /docs folder" and "Save"
-- A link appears 5 lines above. Click on it! That's your new web page.
+- SCHRITT 1: Rufe das Repository unter der Adresse [https://github.com/invisible-university/agency-website](https://github.com/invisible-university/agency-website) auf und klicke rechts oben auf „Fork“. Das kann eine Weile dauern ...
+- GRATULATION: Du hast eine Webseite übernommen. Sie gehört jetzt dir.
+- SCHRITT 2: Gib der Webseite einen Namen, indem du auf „Settings“ klickst, den Repository-Namen änderst (z.B. auf meine-webseite) und dann auf „Rename“ klickst.
+- ACHTUNG: Schaue dir die URL (Webadresse in der Browser-Zeile) an. Sie besteht aus der Adresse von Github, dann deinem Namen und dann dem Namen des Repositories. 
+		Darüber ist dein Projekt für jeden erreichbar.
+- SCHRITT 3: Klicke wieder auf „Setting“ und scrolle nach unten bis zum Eintrag „Github Pages“.
+  	Dort wähle statt „None“ „master branch /docs folder“ aus und klicke „Save“. Scrolle dann zurück an die gleiche Stelle. Dort steht jetzt „Your site is ready to be published at“ und eine Webadresse. Lade die Webseite neu, bis dort „Your site is published at https://[dein name].github.io/meine-webseite/“ erscheint.
+- GRATULATION (2): Du hast jetzt eine eigene Webseite, die frei im Internet erreichbar ist. Klicke auf den Link.
 
-## Changing the Text on the title page
+## Text auf der Startseite ändern
 
-- In Github.com navigate to the main page of your repository
-- Open the /docs folder, then click on index.html
-- Click on the pencil image on the top right side
-- Search for "Your Favorite Source of Free Bootstrap Themes" and change the text to your text
-- On the bottom of the page type a commit message under "Commit changes" and hit the button "Commit changes"
-- Navigate to your website and reload. Voilá.
-- The same way you can change all text in the index.html file, that appears on the website. Just search for the text, change and commit it. But beware: Don't change accidently something that involves < > signs, until you know what you are doing.
+- VORHER: Rufe die Startseite deines Repositories auf. (Wenn du schon in deinem Repository bist, muss du dafür nur oben links unter dem Suchfeld auf den Repository-Namen klicken). Du siehst eine Liste mit Dateien. Einen „docs“-Ordner, die "README.md"-Datei, die du gerade liest und eine ".gitignore-Datei, die wir jetzt nicht brauchen."
+- SCHRITT 1: Klicke auf den „docs“-Ordner, um die Dateien im Ordner anzuzeigen.
+- SCHRITT 2: Klicke auf die Datei „index.html“ und dann auf das Edit-Symbol rechts oben (ein kleiner Stift).
+- Nicht erschrecken! Das sieht ziemlich unübersichtlich aus und wir werden demnächst eine schönere Methode zum Ändern von Dateien kennenlernen.
+- SCHRITT 3: Suche nach „Welcome“ (klicke in den Edit-Bereich und drücke STRG-f ). Du findest eine Zeile, die etwa so aussieht:
 
-## Changing the background image of the header page
+```
+<div class="intro-lead-in">Welcome To Our Studio!</div>`
+```
+- SCHRITT 4: Sei vorsichtig, ändern nur das „Welcome To Our Studio!“ nicht die übrigen Bereiche der Zeile. Du kannst auch gefahrlos in der Zeile darunter das „It's Nice To Meet You“ und darunter das „Tell Me More“ ändern. Dann scrolle die Webseite nach unten schreibe unter „Commit Changes“: „Titel und Untertitel geändert.“. Dann klicke auf „Commit changes“.
+- GRATULATION (3): Du hast deine eigene Webseite zum ersten Mal geändert. Warte einige Sekunden und rufe sie dann auf (den Link findest du unter Settings).
+- Auf diese Weise kannst du alle reinen Texte auf der Seite ändern. Du musst nur herausfinden, welches die reinen Texte sind. 
 
-- On your computer prepare an image, ideally with the size of 1620 x 1080 pixels.
-- Rename it to header.jpg
-- In Github navigate to /docs/img folder
-- Select "Upload" and upload the header.jpg
-- Commit your changes with a commit message
+## Das Hintergrund-Bild auf der Startseite ändern
+- SCHRITTE 1 Suche ein Bild, am besten eines, das etwa 1600 x 1000 pixel groß ist. Zum Beispiel kannst du dafür die Google-Bildersuche verwenden und dort bei Settings/Nutzungsrechte „frei zu nutzen oder weiterzugeben“ auswählen. Ansonsten erschwischt du vielleicht ein Bild mit Rechten. Du kannst auch eines von folgenden Bildern nehmen (rechte Maustaste / Bild speichern):
+
+	[http://c2064.in-berlin.de/kpu/img/aepfel.jpg](http://c2064.in-berlin.de/kpu/img/aepfel.jpg)  
+	[http://c2064.in-berlin.de/kpu/img/aepfel.jpg](http://c2064.in-berlin.de/kpu/img/aepfel.jpg)  
+	[http://c2064.in-berlin.de/kpu/img/blume.jpg](http://c2064.in-berlin.de/kpu/img/blume.jpg)  
+	[http://c2064.in-berlin.de/kpu/img/dahab1.jpg](http://c2064.in-berlin.de/kpu/img/dahab1.jpg)  
+	[http://c2064.in-berlin.de/kpu/img/dahab2.jpg](http://c2064.in-berlin.de/kpu/img/dahab2.jpg)  
+	[http://c2064.in-berlin.de/kpu/img/farben.jpg](http://c2064.in-berlin.de/kpu/img/farben.jpg)  
+	[http://c2064.in-berlin.de/kpu/img/see.jpg](http://c2064.in-berlin.de/kpu/img/see.jpg)  
+	[http://c2064.in-berlin.de/kpu/img/strand.jpg](http://c2064.in-berlin.de/kpu/img/strand.jpg)  
+	[http://c2064.in-berlin.de/kpu/img/teich.jpg](http://c2064.in-berlin.de/kpu/img/teich.jpg)  
+	[http://c2064.in-berlin.de/kpu/img/wald.jpg](http://c2064.in-berlin.de/kpu/img/wald.jpg)  
+
+- SCHRITT 2: Benenne das Bild um in „header-bg.jpg“
+- SCHRITT 3: In GitHub gehe von der Startseite deines Repositories zum /docs/img Ordner
+- SCHRITT 4: Klicke auf „Upload files“ und lade das Bild hoch.
+- SCHRITT 5: Schreibe eine „Commit Message“, z.B. „Neues Hintergrundbild auf Startseite“ und klicke auf „Commit Changes“
+- FERTIG! Nach ein paar Sekunden kannst du die Webseite aufrufen und hast einen neuen Hintergrund. Auf auf dem Smartphone ;-)
 
 
 
@@ -59,3 +79,7 @@ Offene Software ist Software, bei der der Quellcode offen sichtbar ist. Man kann
 ### Repository
 
 Ein Projekt oder Programm bei Github wird Repository genannt, ein Aufbewahrungsort für den Quelltext des Projekts oder Programms. 
+
+### URL
+
+Uniform Resource Locator, eine Web-Adresse. Beginnt mit http:// oder https://
