@@ -1,0 +1,13 @@
+if  [ $# -eq 0 ]
+then
+	echo You need a commit message.
+	exit 1
+fi
+if  [ $# -gt 1 ]
+then
+	echo Enclose your commit message with quotes: \"message\".
+	exit 1
+fi
+git add --all .
+git commit -m "$1"
+git push -u origin master
