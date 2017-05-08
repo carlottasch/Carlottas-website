@@ -1,6 +1,10 @@
-# Agency Theme, vorbereitet für Github-Hosting
+# Agency Theme
+
+Vorbereitet für Github-Hosting
 
 ## Installation
+
+### Webseite "Forken"
 
 - VORHER: Wenn du es noch nicht getan hast: Lege dir ein Github-Konto an und logge dich ein.
 		Du musst **kein** Projekt anlegen, wenn du gefragt wirst.
@@ -13,7 +17,7 @@
   	Dort wähle statt „None“ „master branch /docs folder“ aus und klicke „Save“. Scrolle dann zurück an die gleiche Stelle. Dort steht jetzt „Your site is ready to be published at“ und eine Webadresse. Lade die Webseite neu, bis dort „Your site is published at https://[dein name].github.io/meine-webseite/“ erscheint.
 - GRATULATION (2): Du hast jetzt eine eigene Webseite, die frei im Internet erreichbar ist. Klicke auf den Link.
 
-## Text auf der Startseite ändern
+### Text auf der Startseite ändern
 
 - VORHER: Rufe die Startseite deines Repositories auf. (Wenn du schon in deinem Repository bist, muss du dafür nur oben links unter dem Suchfeld auf den Repository-Namen klicken). Du siehst eine Liste mit Dateien. Einen „docs“-Ordner, die "README.md"-Datei, die du gerade liest und eine ".gitignore-Datei, die wir jetzt nicht brauchen."
 - SCHRITT 1: Klicke auf den „docs“-Ordner, um die Dateien im Ordner anzuzeigen.
@@ -28,7 +32,7 @@
 - GRATULATION (3): Du hast deine eigene Webseite zum ersten Mal geändert. Warte einige Sekunden und rufe sie dann auf (den Link findest du unter Settings).
 - Auf diese Weise kannst du alle reinen Texte auf der Seite ändern. Du musst nur herausfinden, welches die reinen Texte sind. 
 
-## Das Hintergrund-Bild auf der Startseite ändern
+### Das Hintergrund-Bild auf der Startseite ändern
 - SCHRITTE 1 Suche ein Bild, am besten eines, das etwa 1600 x 1000 pixel groß ist. Zum Beispiel kannst du dafür die Google-Bildersuche verwenden und dort bei Settings/Nutzungsrechte „frei zu nutzen oder weiterzugeben“ auswählen. Ansonsten erschwischt du vielleicht ein Bild mit Rechten. Du kannst auch eines von folgenden Bildern nehmen (rechte Maustaste / Bild speichern):
 
 	[http://c2064.in-berlin.de/kpu/img/aepfel.jpg](http://c2064.in-berlin.de/kpu/img/aepfel.jpg)  
@@ -49,8 +53,71 @@
 - FERTIG! Nach ein paar Sekunden kannst du die Webseite aufrufen und hast einen neuen Hintergrund. Auf auf dem Smartphone ;-)
 
 
+## Bearbeiten der Webseite auf dem eigenen Rechner
+
+Das Verändern der Webseite ist unter GitHub etwas umständlich. Um das zu vereinfachen laden wir die Webseite jetzt herunter.
+
+### Webseite auf dem eigenen Rechner speichern
+
+Rufe dein Repository in GitHub auf. In der Eingabezeile des Browsers findest du eine Webadresse. Das ist die Webadresse deines Repositories. Kopiere sie.
+
+Rufe die Kommando-Zeile auf. Wechsle zum Schreibtisch-Verzeichnis.
+
+```
+cd Schreibtisch
+```
+
+Lade dein Repository hierher
+
+```
+git clone [deine Repository-Adresse]
+```
+
+### Die Webseite verändern
+
+Rufe den Sublime-Editor mit dem docs-Verzeichnis auf. In diesem Verzeichnis ist deine gesamte Webseite enthalten.
+Dann öffne die Seite im Firefox.
+
+```
+sublime_text docs &
+firefox docs/index.html &
+```
+
+Mit dem Editor kannst du die Webseite ändern. Öffne dazu zunächst nur die Datei "index.html".
+Mit Firefox kannst du die Webseite anschauen. Firefox holt sich die Seite jetzt nicht aus dem Internet, sondern "lokal" von deiner Festplatte.
+Das heißt, du kannst ändern, was du willst, zunächst hat das keine Auswirkungen auf die Seite im Internet.
+
+### Die Webseite veröffentlichen
+
+Um eine Webseite mit Git zu veröffentlichen, muss man drei Dinge tun:
+- Man muss Git sagen, welche von den geänderten Dateien man hochladen will (meistens alle)
+- Dann erzeugt man eine neue Version und gibt ihr eine Überschrift
+- Als drittes "schiebt" man die Version in Internet hoch
+
+Die drei Befehle sehen so aus:
+- git add .
+- git commit -m "Neue Version"
+- git push
+
+Der Punkt hinter add bedeuted: alle geänderten Dateien. Aber du musst die Befehle nicht einzeln eingeben.
+
+Der Befehl "publish" kombiniert diese drei Befehle. Es reicht also, einfach
+
+```
+./publish "Neue Version"
+```
+
+zu schreiben. Nach einigen Sekunden, manchmal einigen Minuten, ist die Webseite im Internet verfügbar.
+
 
 ## Glossar
+
+- B
+
+### Browser / Internet-Browser
+
+Zugangssoftware für WWW-Seiten, wie Google Chrome, Firefox, Edge, Opera
+
 
 - F
 
