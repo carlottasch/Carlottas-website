@@ -9,13 +9,13 @@ Vorbereitet für Github-Hosting
 - VORHER: Wenn du es noch nicht getan hast: Lege dir ein Github-Konto an und logge dich ein.
 		Du musst **kein** Projekt anlegen, wenn du gefragt wirst.
 - SCHRITT 1: Klicke auf dieser Seite rechts oben auf „Fork“. Das kann eine Weile dauern ...
-- das war es schon: Du hast eine neue Webseite erstellt. Sie gehört jetzt dir.
+    Das war es schon: Du hast eine neue Webseite erstellt. Sie gehört jetzt dir.
 - SCHRITT 2: Gib der Webseite einen Namen, indem du auf „Settings“ klickst, den Repository-Namen änderst (z.B. auf meine-webseite) und dann auf „Rename“ klickst.
 - ACHTUNG: Schaue dir die URL (Webadresse in der Browser-Zeile) an. Sie besteht aus der Adresse von Github, dann deinem Namen und dann dem Namen des Repositories.
 		Darüber ist dein Projekt für jeden erreichbar.
-- SCHRITT 3: Klicke wieder auf „Setting“ und scrolle nach unten bis zum Eintrag „Github Pages“.
-  	Dort wähle statt „None“ „master branch /docs folder“ aus und klicke „Save“. Scrolle dann zurück an die gleiche Stelle. Dort steht jetzt „Your site is ready to be published at“ und eine Webadresse. Lade die Webseite neu, bis dort „Your site is published at https://[dein name].github.io/meine-webseite/“ erscheint.
-- GRATULATION (2): Du hast jetzt eine eigene Webseite, die frei im Internet erreichbar ist. Klicke auf den Link.
+- SCHRITT 3: Klicke wieder auf „Settings“ und scrolle nach unten bis zum Eintrag „Github Pages“.
+  	Dort wähle statt „None“ „master branch /docs folder“ aus und klicke „Save“. Die Webseite springt wieder nach oben. Scrolle dann zurück an die gleiche Stelle. Dort steht jetzt „Your site is ready to be published at“ und eine Webadresse. Lade die Webseite neu, bis dort „Your site is published at https://[dein name].github.io/meine-webseite/“ erscheint.
+- GRATULATION: Du hast jetzt eine eigene Webseite, die frei im Internet erreichbar ist. Klicke auf den Link.
 
 ### Text auf der Startseite ändern
 
@@ -28,12 +28,12 @@ Vorbereitet für Github-Hosting
 ```
 <div class="intro-lead-in">Welcome To Our Studio!</div>`
 ```
-- SCHRITT 4: Sei vorsichtig, ändern nur das „Welcome To Our Studio!“ nicht die übrigen Bereiche der Zeile. Du kannst auch gefahrlos in der Zeile darunter das „It's Nice To Meet You“ und darunter das „Tell Me More“ ändern. Dann scrolle die Webseite nach unten schreibe unter „Commit Changes“: „Titel und Untertitel geändert.“. Dann klicke auf „Commit changes“.
-- GRATULATION (3): Du hast deine eigene Webseite zum ersten Mal geändert. Warte einige Sekunden und rufe sie dann auf (den Link findest du unter Settings).
-- Auf diese Weise kannst du alle reinen Texte auf der Seite ändern. Du musst nur herausfinden, welches die reinen Texte sind.
+- SCHRITT 4: Sei vorsichtig, ändere nur das „Welcome To Our Studio!“ nicht die übrigen Bereiche der Zeile. Du kannst auch gefahrlos in der Zeile darunter das „It's Nice To Meet You“ und darunter das „Tell Me More“ ändern. Dann scrolle die Webseite nach unten schreibe unter „Commit Changes“: „Titel und Untertitel geändert.“. Dann klicke auf „Commit changes“.
+- GRATULATION (2): Du hast deine eigene Webseite zum ersten Mal geändert. Warte einige Sekunden und rufe sie dann auf (den Link findest du unter Settings).
+- Auf die gleiche Weise kannst du alle Texte auf der Seite ändern, die nicht zur HTML-Format-Beschreibung gehören (alles, was zwischen einem < und einem > steht).
 
 ### Das Hintergrund-Bild auf der Startseite ändern
-- SCHRITTE 1 Suche ein Bild, am besten eines, das etwa 1600 x 1000 pixel groß ist. Zum Beispiel kannst du dafür die Google-Bildersuche verwenden und dort bei Settings/Nutzungsrechte „frei zu nutzen oder weiterzugeben“ auswählen. Ansonsten erschwischt du vielleicht ein Bild mit Rechten. Du kannst auch eines von folgenden Bildern nehmen (rechte Maustaste / Bild speichern):
+- SCHRITT 1: Suche im Internet ein Bild, am besten eines, das etwa 1600 x 1000 pixel groß ist, und das nicht durch Rechte geschützt ist. Zum Beispiel kannst du dafür die Google-Bildersuche verwenden und dort bei Settings/Nutzungsrechte „frei zu nutzen oder weiterzugeben“ auswählen. Du kannst auch eines von folgenden Bildern nehmen (rechte Maustaste / Bild speichern):
 
 	[http://c2064.in-berlin.de/kpu/img/aepfel.jpg](http://c2064.in-berlin.de/kpu/img/aepfel.jpg)  
 	[http://c2064.in-berlin.de/kpu/img/aepfel.jpg](http://c2064.in-berlin.de/kpu/img/aepfel.jpg)  
@@ -42,11 +42,8 @@ Vorbereitet für Github-Hosting
 	[http://c2064.in-berlin.de/kpu/img/dahab2.jpg](http://c2064.in-berlin.de/kpu/img/dahab2.jpg)  
 	[http://c2064.in-berlin.de/kpu/img/farben.jpg](http://c2064.in-berlin.de/kpu/img/farben.jpg)  
 	[http://c2064.in-berlin.de/kpu/img/see.jpg](http://c2064.in-berlin.de/kpu/img/see.jpg)  
-	[http://c2064.in-berlin.de/kpu/img/strand.jpg](http://c2064.in-berlin.de/kpu/img/strand.jpg)  
-	[http://c2064.in-berlin.de/kpu/img/teich.jpg](http://c2064.in-berlin.de/kpu/img/teich.jpg)  
-	[http://c2064.in-berlin.de/kpu/img/wald.jpg](http://c2064.in-berlin.de/kpu/img/wald.jpg)  
 
-- SCHRITT 2: Benenne das Bild um in „header-bg.jpg“
+- SCHRITT 2: Hole das Bild auf deinen Computer und benenne es um in „header-bg.jpg“
 - SCHRITT 3: In GitHub gehe von der Startseite deines Repositories zum /docs/img Ordner
 - SCHRITT 4: Klicke auf „Upload files“ und lade das Bild hoch.
 - SCHRITT 5: Schreibe eine „Commit Message“, z.B. „Neues Hintergrundbild auf Startseite“ und klicke auf „Commit Changes“
@@ -75,11 +72,11 @@ git clone [deine Repository-Adresse]
 
 ### Die Webseite verändern
 
-Rufe den Sublime-Editor mit dem docs-Verzeichnis auf. In diesem Verzeichnis ist deine gesamte Webseite enthalten.
+Rufe den Atom-Editor mit dem docs-Verzeichnis auf. In diesem Verzeichnis ist deine gesamte Webseite enthalten.
 Dann öffne die Seite im Firefox.
 
 ```
-sublime_text docs &
+atom docs &
 firefox docs/index.html &
 ```
 
@@ -108,45 +105,3 @@ Der Befehl "publish" kombiniert diese drei Befehle. Es reicht also, einfach
 ```
 
 zu schreiben. Nach einigen Sekunden, manchmal einigen Minuten, ist die Webseite im Internet verfügbar.
-
-
-## Glossar
-
-- B
-
-### Browser / Internet-Browser
-
-Zugangssoftware für WWW-Seiten, wie Google Chrome, Firefox, Edge, Opera
-
-
-- F
-
-### Freie Software
-
-Freie Software ist Open Source-Software, die man sich frei kopieren und dann verändern kann.
-
-- G
-
-### Github
-
-Github ist der zentrale Ort für Open-Source-Software-Projekte, quasi ein Facebook für Programmierer.
-
-- H
-
-### Hosting
-
-Hosting ist das Unterbringen von Webseiten auf Webservern, so dass sie vom Internet aus zugänglich sind. Auch Google und Apple "hosten" ihre Webseiten.
-
-- O
-
-### OpenSource
-
-Offene Software ist Software, bei der der Quellcode offen sichtbar ist. Man kann quasi "nachlesen", was das Programm macht. Freie Software (Free Software) erlaubt darüber hinaus noch, das freie Kopieren und Weiterbearbeiteten des Quellcodes.
-
-### Repository
-
-Ein Projekt oder Programm bei Github wird Repository genannt, ein Aufbewahrungsort für den Quelltext des Projekts oder Programms.
-
-### URL
-
-Uniform Resource Locator, eine Web-Adresse. Beginnt mit http:// oder https://
