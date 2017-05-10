@@ -8,10 +8,10 @@ Vorbereitet für Github-Hosting
 
 - VORHER: Wenn du es noch nicht getan hast: Lege dir ein Github-Konto an und logge dich ein.
 		Du musst **kein** Projekt anlegen, wenn du gefragt wirst.
-- SCHRITT 1: Rufe das Repository unter der Adresse [https://github.com/invisible-university/agency-website](https://github.com/invisible-university/agency-website) auf und klicke rechts oben auf „Fork“. Das kann eine Weile dauern ...
-- GRATULATION: Du hast eine Webseite übernommen. Sie gehört jetzt dir.
+- SCHRITT 1: Klicke auf dieser Seite rechts oben auf „Fork“. Das kann eine Weile dauern ...
+- das war es schon: Du hast eine neue Webseite erstellt. Sie gehört jetzt dir.
 - SCHRITT 2: Gib der Webseite einen Namen, indem du auf „Settings“ klickst, den Repository-Namen änderst (z.B. auf meine-webseite) und dann auf „Rename“ klickst.
-- ACHTUNG: Schaue dir die URL (Webadresse in der Browser-Zeile) an. Sie besteht aus der Adresse von Github, dann deinem Namen und dann dem Namen des Repositories. 
+- ACHTUNG: Schaue dir die URL (Webadresse in der Browser-Zeile) an. Sie besteht aus der Adresse von Github, dann deinem Namen und dann dem Namen des Repositories.
 		Darüber ist dein Projekt für jeden erreichbar.
 - SCHRITT 3: Klicke wieder auf „Setting“ und scrolle nach unten bis zum Eintrag „Github Pages“.
   	Dort wähle statt „None“ „master branch /docs folder“ aus und klicke „Save“. Scrolle dann zurück an die gleiche Stelle. Dort steht jetzt „Your site is ready to be published at“ und eine Webadresse. Lade die Webseite neu, bis dort „Your site is published at https://[dein name].github.io/meine-webseite/“ erscheint.
@@ -30,7 +30,7 @@ Vorbereitet für Github-Hosting
 ```
 - SCHRITT 4: Sei vorsichtig, ändern nur das „Welcome To Our Studio!“ nicht die übrigen Bereiche der Zeile. Du kannst auch gefahrlos in der Zeile darunter das „It's Nice To Meet You“ und darunter das „Tell Me More“ ändern. Dann scrolle die Webseite nach unten schreibe unter „Commit Changes“: „Titel und Untertitel geändert.“. Dann klicke auf „Commit changes“.
 - GRATULATION (3): Du hast deine eigene Webseite zum ersten Mal geändert. Warte einige Sekunden und rufe sie dann auf (den Link findest du unter Settings).
-- Auf diese Weise kannst du alle reinen Texte auf der Seite ändern. Du musst nur herausfinden, welches die reinen Texte sind. 
+- Auf diese Weise kannst du alle reinen Texte auf der Seite ändern. Du musst nur herausfinden, welches die reinen Texte sind.
 
 ### Das Hintergrund-Bild auf der Startseite ändern
 - SCHRITTE 1 Suche ein Bild, am besten eines, das etwa 1600 x 1000 pixel groß ist. Zum Beispiel kannst du dafür die Google-Bildersuche verwenden und dort bei Settings/Nutzungsrechte „frei zu nutzen oder weiterzugeben“ auswählen. Ansonsten erschwischt du vielleicht ein Bild mit Rechten. Du kannst auch eines von folgenden Bildern nehmen (rechte Maustaste / Bild speichern):
@@ -145,7 +145,7 @@ Offene Software ist Software, bei der der Quellcode offen sichtbar ist. Man kann
 
 ### Repository
 
-Ein Projekt oder Programm bei Github wird Repository genannt, ein Aufbewahrungsort für den Quelltext des Projekts oder Programms. 
+Ein Projekt oder Programm bei Github wird Repository genannt, ein Aufbewahrungsort für den Quelltext des Projekts oder Programms.
 
 ### URL
 
