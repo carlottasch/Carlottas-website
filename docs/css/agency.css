@@ -744,3 +744,15 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+header {
+  color: #1780A3;
+}
+
+.navbar-custom .navbar-brand {
+  color: #00FF00;
+}
+
+.navbar-custom .nav li a {
+  color: #1780A3;
+}
+                                        
