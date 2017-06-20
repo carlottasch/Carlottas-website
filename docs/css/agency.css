@@ -756,3 +756,7 @@ header {
   color: #1780A3;
 }
                                         
+input.form-control:placeholder-shown  {
+  color: black;
+  border: 1px solid green;
+}
