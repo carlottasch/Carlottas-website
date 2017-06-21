@@ -760,3 +760,28 @@ input.form-control:placeholder-shown  {
   color: black;
   border: 1px solid green;
 }
+
+.btn-xl:hover {
+  background-color: rgba(38, 157, 177, 1);
+border-color:rgba(38, 157, 177, 1);
+}
+
+.btn-xl {
+    background-color: #7FFFD4;
+border-color: #7FFFD4;;
+ }
+.navbar-brand {
+  font-family: "Julius Sans One" !important;
+}
+
+.navbar-nav li a {
+  font-family: "Julius Sans One" !important;
+}
+
+.intro-lead-in {
+  font-family: "Julius Sans One" !important;
+}
+
+.intro-heading {
+  font-family: "Abril Fatface" !important;
+}
