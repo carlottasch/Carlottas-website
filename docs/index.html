@@ -267,25 +267,25 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                <form name="sentMessage" id="contactForm" novalidate action="https://formspree.io/message@michaelschmidt.berlin" method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Dein Name *" id="name" required data-validation-required-message="Bitte schreibe deinen Namen hier.">
+                                    <input name="Name" type="text" class="form-control" placeholder="Dein Name *" id="name" required data-validation-required-message="Bitte schreibe deinen Namen hier.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Deine Email *" id="email" required data-validation-required-message="Bitte schreibe deine Email Adresse hier.">
+                                    <input name="Email" type="email" class="form-control" placeholder="Deine Email *" id="email" required data-validation-required-message="Bitte schreibe deine Email Adresse hier.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Deine Nummer *" id="phone" required data-validation-required-message="Bitte schreibe deine Telefon Nummer hier.">
+                                    <input name="Tel" type="tel" class="form-control" placeholder="Deine Nummer *" id="phone" required data-validation-required-message="Bitte schreibe deine Telefon Nummer hier.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Deine Nachricht*" id="message" required data-validation-required-message="Bitte schreibe deine Nachricht hier"></textarea>
+                                    <textarea name="Text" class="form-control" placeholder="Deine Nachricht*" id="message" required data-validation-required-message="Bitte schreibe deine Nachricht hier"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -522,7 +522,6 @@
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
