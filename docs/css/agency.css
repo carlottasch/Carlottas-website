@@ -8,7 +8,7 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #ffffff;
+  color: #000000;
 }
 .text-primary {
   color: #fed136;
@@ -746,7 +746,7 @@ body {
   webkit-tap-highlight-color: #fed136;
 }
 header {
-  color: #1780A3;
+  color: #ffffff;
 }
 
 .navbar-custom .navbar-brand {
