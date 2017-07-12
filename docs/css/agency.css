@@ -8,7 +8,7 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #777777;
+  color: #white;
 }
 .text-primary {
   color: #fed136;
@@ -164,8 +164,8 @@ fieldset[disabled] .btn-xl.active {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #7FFFD4;
+  border-color: #7FFFD4;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -173,7 +173,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #1780A3;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -556,7 +556,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
+  background-image: url('../img/header-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -798,4 +798,11 @@ border-color: #7FFFD4;;
 }
 h4{
   font-family: "Julius Sans One" !important;
+}
+
+::selection {
+  background: #7FFFD4; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #7FFFD4; /* Gecko Browsers */
 }
